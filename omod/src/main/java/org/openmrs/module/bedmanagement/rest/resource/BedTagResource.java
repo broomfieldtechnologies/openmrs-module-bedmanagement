@@ -35,7 +35,7 @@ import org.openmrs.module.webservices.rest.web.response.ResponseException;
 import java.util.List;
 
 @Resource(name = RestConstants.VERSION_1 + "/bedTag", supportedClass = BedTag.class, supportedOpenmrsVersions = { "1.9.*",
-        "1.10.*", "1.11.*", "1.12.*", "2.*" })
+        "1.10.*", "1.11.*", "1.12.*", "2.*", "2.x.x" })
 public class BedTagResource extends DelegatingCrudResource<BedTag> {
 	
 	@Override

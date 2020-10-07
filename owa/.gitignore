@@ -8,3 +8,5 @@
 /yarn-error.log
 /node/
 /target/
+.project
+.settings/
